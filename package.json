@@ -9,7 +9,6 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -w --config ./build/rollup.config.js",
     "build": "yarn clean && yarn build:es && yarn build:umd",
     "prepublishOnly": "yarn build",
