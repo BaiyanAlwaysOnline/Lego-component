@@ -1,6 +1,6 @@
 {
   "name": "lego-component",
-  "version": "1.0.1",
+  "version": "1.0.2-alpha.0",
   "description": "lego-component",
   "module": "dist/lego-component.esm.js",
   "main": "dist/lego-component.umd.js",
@@ -15,7 +15,8 @@
     "prepublishOnly": "yarn build",
     "clean": "rimraf ./dist",
     "build:es": "rollup --config ./build/rollup.config.esm.js",
-    "build:umd": "rollup --config ./build/rollup.config.umd.js"
+    "build:umd": "rollup --config ./build/rollup.config.umd.js",
+    "release": "standard-version"
   },
   "keywords": [
     "Vue",
@@ -33,7 +34,8 @@
     "rollup": "^2.49.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-typescript2": "^0.30.0",
-    "rollup-plugin-vue": "^6.0.0"
+    "rollup-plugin-vue": "^6.0.0",
+    "standard-version": "^9.3.0"
   },
   "dependencies": {
     "lodash-es": "^4.17.21"
