@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - node
+deploy:
+  provider: npm
+  email: "baiyanalways@163.com"
+  api_key: "472c1a85-05a6-476a-a693-84e2de7a52fe"
+  skip_cleanup: true
+  on:
+    tags: true
