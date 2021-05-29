@@ -1,0 +1,43 @@
+{
+  "name": "lego-component",
+  "version": "1.0.0",
+  "description": "lego-component",
+  "module": "dist/lego-component.esm.js",
+  "main": "dist/lego-component.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -w --config ./build/rollup.config.js",
+    "build": "yarn clean && yarn build:es && yarn build:umd",
+    "clean": "rimraf ./dist",
+    "build:es": "rollup --config ./build/rollup.config.esm.js",
+    "build:umd": "rollup --config ./build/rollup.config.umd.js"
+  },
+  "keywords": [
+    "Vue",
+    "Vue3",
+    "Component",
+    "UI"
+  ],
+  "author": "byyan",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/lodash-es": "^4.17.4",
+    "@vue/compiler-sfc": "^3.0.11",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.49.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
