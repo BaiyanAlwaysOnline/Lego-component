@@ -1,6 +1,6 @@
 {
   "name": "lego-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lego-component",
   "module": "dist/lego-component.esm.js",
   "main": "dist/lego-component.umd.js",
@@ -12,6 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -w --config ./build/rollup.config.js",
     "build": "yarn clean && yarn build:es && yarn build:umd",
+    "prepublishOnly": "yarn build",
     "clean": "rimraf ./dist",
     "build:es": "rollup --config ./build/rollup.config.esm.js",
     "build:umd": "rollup --config ./build/rollup.config.umd.js"
