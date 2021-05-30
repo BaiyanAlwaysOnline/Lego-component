@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.5](https://github.com/BaiyanAlwaysOnline/Lego-component/compare/v1.1.0-alpha.4...v1.1.0-alpha.5) (2021-05-30)
+
 ## [1.1.0-alpha.4](https://github.com/BaiyanAlwaysOnline/Lego-component/compare/v1.1.0-alpha.3...v1.1.0-alpha.4) (2021-05-30)
 
 
