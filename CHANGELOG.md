@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.3](https://github.com/BaiyanAlwaysOnline/Lego-component/compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2021-05-30)
+
+
+### Features
+
+* add travis-ci ([3fd3375](https://github.com/BaiyanAlwaysOnline/Lego-component/commit/3fd3375aeda031134927930957962461e35f8ae9))
+
 ## [1.1.0-alpha.2](https://github.com/BaiyanAlwaysOnline/Lego-component/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2021-05-30)
 
 ## [1.1.0-alpha.1](https://github.com/BaiyanAlwaysOnline/Lego-component/compare/v1.1.0-alpha.0...v1.1.0-alpha.1) (2021-05-30)
