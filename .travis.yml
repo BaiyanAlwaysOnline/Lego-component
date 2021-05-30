@@ -1,10 +1,11 @@
 language: node_js
 node_js:
-  - node
+- node
 deploy:
   provider: npm
-  email: "baiyanalways@163.com"
-  api_key: "472c1a85-05a6-476a-a693-84e2de7a52fe"
+  email: baiyanalways@163.com
+  api_key:
+    secure: RyHnEmVolnlJ1lPVIQBiDM/Z5A4PvfpBtAiHGnXznjFhiwRFodFxXbueCrhh+ch5hfEnyIVjvKl4ZvYZPGrUyqe36fBIjYj540EV5N1Rq0HwLtxQrtq5A6kF13iwOuxAzv0nkm6/lw52VmUCE1l84iq9c9ct7nD8n3/eN8r/rrOG8seEq7svRZyTAXRxp/DnpceSc2+Iice/U/69H64uz2x0RZ+TpTaczS5gPAKifVWfV2BNkIv31xwOggr/GVMC0Vf0MpjE0TbU7OjurMfS8Rh+UVxbxdhU/0c2A7clDDAgfreeuWH7/CLCHkOYMEZV96hp3HS90yKa0JB0NpzW1BndBt7QAXLTZPMTuqOvPh/KzPADnO/UxsELjLdypZuK8/2asAf4vHRWSiaCsr5XVRbc/GvT3wfVQCSnLns+FBbepOOGnHOAvmGBeB+52WloOFZRsi6n5zTmcPlrJpYqgsf21LB7zAXuW2N6iTbGhC+E2sFywvVw1XGz2+fzJCcoiCxZXcr2qfAK1VNAQmPF8g1/+ednMp3cl1HMkSAuho36Wr+Ph02Q18rmCuNU2+iAQ/x/WAVTeAwTo2OZx4ok0M9C5wNwfgi1L2jHpfihQOPOmx6PezOOjmGU9j4bDR1DBXfGU0U++A+UXtqTEgnYjeE8v42R4LhpVxQPlnKy8k4=
   skip_cleanup: true
   on:
     tags: true
